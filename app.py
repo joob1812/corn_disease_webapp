@@ -28,7 +28,7 @@ class_names = [
 ]
 
 model = EfficientNet.from_name('efficientnet-b4', num_classes=len(class_names))
-model.load_state_dict(torch.load("models/damage_analysis_best_model.pt", map_location="cpu"))
+model.load_state_dict(torch.load("models/efficientnet_b4_corn_disease.pt", map_location="cpu"))
 model.eval()
 
 disease_info = {
