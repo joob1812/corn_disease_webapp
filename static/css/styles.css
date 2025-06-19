@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#previewImage {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+#probabilitiesList {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.badge {
+    font-size: 0.9em;
+}
+
+#liveCamera, #video {
+    background-color: #000;
+    border-radius: 4px;
+}
